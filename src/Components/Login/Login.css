@@ -1,0 +1,44 @@
+.LoginForm {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 30%;
+  height: 30%;
+  transform: translate(-50%, -50%);
+  z-index: 50;
+  font-family: 'Waltograph', Arial, sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  color: #e50914;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+  
+  
+}
+
+.form-label {
+  /* Estilos adicionales para las etiquetas de formulario */
+  color:red;
+}
+
+.form-control {
+  /* Estilos adicionales para los campos de formulario */
+  color:red;
+  
+}
+
+.forgot-password-link {
+  position: relative;
+  text-decoration: none; /* Quita la decoración de subrayado */
+  color: inherit; /* Hereda el color del texto del elemento padre */
+  font-size: 16px;
+  color: red;
+}
+
+.login-button {
+  position: relative;
+  background-color: black;
+  color:red;
+  width: 100%;
+  z-index: 556;
+  border-radius: 10px;
+}

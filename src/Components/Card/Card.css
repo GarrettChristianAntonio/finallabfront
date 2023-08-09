@@ -1,0 +1,36 @@
+.card-container {
+    display: flex; /* Utilizamos flex para que las tarjetas se muestren en una fila */
+    flex-wrap: wrap; /* Permitimos que las tarjetas se envuelvan a la siguiente línea cuando no haya suficiente espacio */
+    justify-content: space-between; /* Distribuimos las tarjetas en el espacio disponible */
+  }
+  
+  .card {
+    width: calc(33.33% - 20px); /* Aseguramos que cada tarjeta tenga un ancho del 33.33% menos el espacio entre las tarjetas */
+    margin-bottom: 20px; /* Agregamos un espacio entre las tarjetas */
+    padding: 10px;
+    border: 1px solid #ccc; /* Agregamos un borde para resaltar cada tarjeta */
+    box-sizing: border-box; /* Incluimos el borde en el tamaño total de la tarjeta */
+  }
+
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    flex: 1 0 30%; /* Esto permite que las cards se muestren en una fila de hasta 30% de ancho */
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .card iframe {
+    width: 100%; /* Establece el ancho del iframe al 100% del contenedor */
+    height: 300px; /* Ajusta la altura del iframe según tus necesidades */
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }

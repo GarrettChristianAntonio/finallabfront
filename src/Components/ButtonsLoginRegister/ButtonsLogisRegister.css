@@ -1,0 +1,27 @@
+.buttons{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 3;
+    }
+
+    .buttonCineFlixor {
+        font-family: 'Waltograph', Arial, sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        color: #e50914;
+        border: 0;
+        text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+        background-image: linear-gradient(to right, #e50914, #ffdb00);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        z-index: 3;
+        
+      }
+      .buttonCineFlixor:hover {
+        background-color: #ffdb00;
+      }
+      .buttonCineFlixor:focus {
+        outline: none;
+        
+      }

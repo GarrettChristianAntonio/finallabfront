@@ -1,0 +1,21 @@
+.SideBarr {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    margin-top: 20px; /* Puedes ajustar el margen según tus necesidades */
+  }
+  
+  /* Estilos para el formulario */
+  .form-inline {
+    display: flex;
+    align-items: center; /* Alinear los elementos verticalmente al centro */
+  }
+  
+  /* Estilos para el input */
+  .form-control {
+    margin-right: 10px; /* Espacio entre el input y el botón */
+  }
+  
+  /* Estilos para el botón */
+  .btn {
+    min-width: 100px; /* Ancho mínimo del botón para que tenga suficiente espacio */
+  }

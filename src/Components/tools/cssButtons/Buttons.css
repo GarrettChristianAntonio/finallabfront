@@ -1,0 +1,27 @@
+.form-container {
+    display: flex;
+
+    ;
+  }
+  
+ 
+  
+  /* Estilo para los botones cuando se pasa el mouse por encima */
+  .form-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilo para los formularios */
+  .form-container form {
+  
+    padding: 10px;
+    border: 1px solid #ccc;
+    max-width: 300px; /* Ajusta el ancho máximo según tus preferencias */
+  }
+  
+  
+  
+  /* Estilo para los campos del formulario */
+  .form-field {
+    margin-bottom: 10px;
+  }

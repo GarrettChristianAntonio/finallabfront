@@ -1,0 +1,7 @@
+.ButtonRegresar{
+    position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(-100%, 0);
+  margin-top: 20px;
+}

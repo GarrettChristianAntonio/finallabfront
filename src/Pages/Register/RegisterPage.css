@@ -1,0 +1,24 @@
+.RegisterPage {
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+        "Header"
+        "FormRegister"
+        "Footer";
+    background-image: url(../../Images/Marvel.jpg);
+    background-size: cover;
+  background-position: center;
+}
+
+.Header {
+    grid-area: Header;
+}
+
+.Footer {
+    grid-area: Footer;
+}
+
+.FormRegister {
+    grid-area: FormRegister;
+}
+
